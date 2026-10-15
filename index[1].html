@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What's Becky Up To?</title>
+  <meta name="description" content="What's Becky Up To? — Becky Fresh podcast, comics, and members-only extras.">
+  <link rel="stylesheet" href="styles.css">
+  <!-- MEMBERSTACK: replace YOUR_MEMBERSTACK_APP_ID with the app_... ID from Settings > Install -->
+<script
+  data-memberstack-app="YOUR_MEMBERSTACK_APP_ID"
+  src="https://static.memberstack.com/scripts/v2/memberstack.js"
+  type="text/javascript">
+</script>
+</head>
+<body>
+<nav>
+  <div class="wrap">
+    <a class="brand" href="index.html">What's Becky Up To?</a>
+    <div class="navlinks">
+      <a href="#episodes">Episodes</a><a href="#beckyfresh">Becky Fresh</a><a href="#comics">Comics</a>
+      <a data-ms-content="!members" data-ms-modal="login" href="#">Log In</a>
+      <a data-ms-content="members" href="members.html">Members</a>
+      <button data-ms-content="members" data-ms-action="logout" class="btn btn-secondary">Log Out</button>
+      <a data-ms-content="!paid-plans" class="btn btn-primary" href="join.html">Subscribe</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="pill">🎙 Podcast • ✨ Becky Fresh • 🖍 Comics</span>
+      <h1>What’s Becky Up To?</h1>
+      <p>Podcasts, projects, behind-the-scenes adventures, Becky Fresh visuals, comic strips, and premium extras.</p>
+      <div class="hero-actions">
+        <a data-ms-content="!paid-plans" class="btn btn-primary" href="join.html">Join for $5/month</a>
+        <a data-ms-content="paid-plans" class="btn btn-primary" href="members.html">Enter Members Area</a>
+        <a class="btn btn-secondary" href="#episodes">Explore the show</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="assets/becky_portrait.jpg" alt="Becky smiling outdoors in colorful glasses">
+      <div class="hero-badge"><strong>Becky Fresh</strong><br><span class="muted">Host • Creator • Chaos Coordinator</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="episodes"><div class="wrap">
+  <div class="section-head"><h2>Podcast</h2><p>Use this area for a free public episode that anyone can sample.</p></div>
+  <div class="grid-2">
+    <div class="card"><h3>Featured Episode</h3><div class="fake-player">Paste your public podcast embed here.</div></div>
+    <div class="card"><h3>Members get more</h3><p>Bonus episodes, extended conversations, private updates, and exclusive extras.</p>
+      <a class="btn btn-primary" href="join.html" data-ms-content="!paid-plans">Unlock for $5/month</a>
+      <a class="btn btn-primary" href="members.html" data-ms-content="paid-plans">Go to your library</a>
+    </div>
+  </div>
+</div></section>
+
+<section id="beckyfresh"><div class="wrap">
+  <div class="section-head"><h2>Becky Fresh</h2><p>Your uploaded photos and Becky Fresh galaxy logo are built into the site.</p></div>
+  <div class="grid-3">
+    <div class="card logo-wrap"><img src="assets/becky_fresh_logo.png" alt="Becky Fresh galaxy logo"></div>
+    <div class="card media-card"><img src="assets/becky_fullbody.jpg" alt="Becky outdoors at night"><div class="pad"><h3>On the Scene</h3><p class="muted">Events, reporting, and behind-the-scenes adventures.</p></div></div>
+    <div class="card media-card"><img src="assets/becky_portrait.jpg" alt="Becky smiling outdoors"><div class="pad"><h3>Latest from Becky</h3><p class="muted">Updates, stories, and creative projects.</p></div></div>
+  </div>
+</div></section>
+
+<section id="comics"><div class="wrap">
+  <div class="section-head"><h2>Comic Strips</h2><p>Public teasers can live here, while complete issues can be placed in the protected members area.</p></div>
+  <div class="grid-2">
+    <div class="card">
+      <div class="comic-board">
+        <div class="comic-panel"><img src="assets/becky_portrait.jpg" alt=""><div class="caption">Becky Fresh is on the scene.</div></div>
+        <div class="comic-panel"><img src="assets/becky_fullbody.jpg" alt=""><div class="caption">Naturally, things get interesting.</div></div>
+      </div>
+    </div>
+    <div class="card"><h3>Comic Archive</h3><p>Put full comic pages in <strong>members.html</strong> and gate that page in Memberstack.</p>
+      <a class="btn btn-primary" href="join.html" data-ms-content="!paid-plans">Unlock Comics</a>
+      <a class="btn btn-primary" href="members.html#comics" data-ms-content="paid-plans">Read Member Comics</a>
+    </div>
+  </div>
+</div></section>
+
+<section id="membership"><div class="wrap">
+  <div class="section-head"><h2>Membership</h2><p>$5/month for premium audio, comics, visuals, and private updates.</p></div>
+  <div class="grid-3">
+    <div class="card"><h3>Monthly Member</h3><div class="price">$5</div><div class="muted">per month</div>
+      <ul><li>Bonus episodes</li><li>Members-only comics</li><li>Private updates</li><li>Exclusive photo/video posts</li></ul>
+      <a class="btn btn-primary" href="join.html" data-ms-content="!paid-plans">Join Now</a>
+    </div>
+    <div class="card"><h3>Already a member?</h3><p>Log in to get back to your private content.</p>
+      <button class="btn btn-secondary" data-ms-modal="login" data-ms-content="!members">Log In</button>
+      <a class="btn btn-secondary" href="members.html" data-ms-content="members">Members Area</a>
+    </div>
+    <div class="card"><h3>Manage Billing</h3><p>Paid members can update cards or cancel through Stripe's customer portal.</p>
+      <button class="btn btn-secondary" data-ms-action="customer-portal" data-ms-content="paid-plans">Manage Subscription</button>
+    </div>
+  </div>
+</div></section>
+</main>
+
+<footer class="footer"><div class="wrap">© 2026 What’s Becky Up To? · Becky Fresh</div></footer>
+</body>
+</html>
